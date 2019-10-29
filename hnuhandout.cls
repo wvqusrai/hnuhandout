@@ -3,6 +3,7 @@
 \ProvidesClass{exercise}[2019/06/15 Example LaTeX class]
 %2019/05/27 version 1.1
 %2019/06/15 version 1.2
+%2019/10/27 version 1.3
 %The command ProvidesClass{exampleclass}[...] identifies this class as exampleclass and, inside the brackets, the release date and some additional information is included. The date should be in the form YYYY/MM/DD
 
 \LoadClass{exam}
@@ -10,6 +11,7 @@
 \RequirePackage{tikz,stmaryrd,caption2}
 \RequirePackage{xeCJK,zhnumber,fontspec}
 \RequirePackage{geometry}
+\RequirePackage{graphicx}
 \RequirePackage{ifsym,graphicx,wrapfig}
 \RequirePackage{xhfill,color,etoolbox,expl3}
 \RequirePackage{multirow,tabularx,tabu,diagbox}
